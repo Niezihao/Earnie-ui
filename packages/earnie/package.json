@@ -1,0 +1,24 @@
+{
+  "name": "earnie",
+  "version": "1.0.7",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "earnie",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@earnie/utils": "^1.0.2"
+  }
+}
