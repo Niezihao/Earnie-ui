@@ -3,13 +3,16 @@
  * @Author: niezihao
  * @Date: 2023-12-05 11:12:34
  * @LastEditors: niezihao
- * @LastEditTime: 2023-12-28 16:55:53
+ * @LastEditTime: 2023-12-29 17:17:36
  */
 export default {
   title: 'earnie',
   base: process.env.NODE_ENV === 'production' ? '/earnie/' : '/',
   themeConfig: {
-    nav: [{ text: '文档', link: '/guild/introduce' }],
+    nav: [
+      { text: '文档', link: '/guild/introduce' },
+      { text: '组件', link: '/components/index' },
+  ],
     sidebar: {
       '/': [
         {
@@ -46,10 +49,32 @@ export default {
               link: '/develop/build'
             }
           ]
+        },
+        {
+          text: '组件',
+          items: [
+            {
+              text: '第一个组件',
+              link: '/components/index'
+            },
+            {
+              text: '第二个组件',
+              link: '/components/index'
+            },
+            {
+              text: '第三个组件',
+              link: '/components/index'
+            },
+
+            {
+              text: '第四个组件',
+              link: '/components/index'
+            }
+          ]
         }
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/easyest' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Niezihao/Earnie-ui' }]
   }
 };

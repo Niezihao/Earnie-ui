@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: Easyest
+title: Earnie
 titleTemplate: 一个快速搭建Vue3组件库的框架
 
 hero:
@@ -10,14 +10,14 @@ hero:
   tagline: 让你的组件库开发更简单
   image:
     /src: /logo.png
-    alt: Easyest
+    alt: Earnie
   actions:
     - theme: brand
       text: 开始
       link: /guild/introduce
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/qddidi/easyest
+      link: https://github.com/Niezihao/Earnie-ui
 
 features:
   - icon: 💡
